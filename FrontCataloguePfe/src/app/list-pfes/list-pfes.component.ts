@@ -10,7 +10,7 @@ export class ListPfesComponent implements OnInit {
   type:any;
   pfe:any;
   totale:any;
-  titre:any;
+  titre:string="";
   constructor(private gest:GestionService) { }
 
   ngOnInit(): void {

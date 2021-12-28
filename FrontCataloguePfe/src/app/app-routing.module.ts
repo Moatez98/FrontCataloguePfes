@@ -5,6 +5,8 @@ import { ListPfesComponent } from './list-pfes/list-pfes.component';
 
 const routes: Routes = [
   {path:"List",component:ListPfesComponent},
+  {path:"",component:ListPfesComponent},
+
   {path:"Ajouter",component:AjouterPfeComponent},
 ];
 
